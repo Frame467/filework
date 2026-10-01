@@ -1,0 +1,11 @@
+/* Page-specific styles. Shared tokens are in shared/styles/theme.css. */
+
+main > .panel {
+  margin-top: 24px;
+}
+td select {
+  min-width: 140px;
+}
+#employeeForm {
+  max-width: 520px;
+}

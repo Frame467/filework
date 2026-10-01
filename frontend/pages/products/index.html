@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fieldwork / Product Management</title>
+    <link rel="stylesheet" href="/shared/styles/base.css" />
+    <link rel="stylesheet" href="/shared/styles/theme.css" />
+    <link rel="stylesheet" href="./page.css" />
+  </head>
+  <body>
+    <div id="shell"></div>
+    <main>
+      <div class="row between">
+        <div>
+          <span class="eyebrow">OPERATIONS / CATALOG</span>
+          <h1 class="back-title">สินค้าและสต๊อก</h1>
+        </div>
+        <button class="primary" id="newProduct">+ เพิ่มสินค้า</button>
+      </div>
+      <div id="products" class="panel table-wrap"></div>
+      <section class="panel spaced">
+        <h2>ประวัติการเคลื่อนไหวสต๊อก</h2>
+        <div id="movements" class="table-wrap"></div>
+      </section>
+      <dialog id="editor">
+        <div class="row between">
+          <h2 id="editorTitle">แก้สินค้า</h2>
+          <button id="closeEditor" aria-label="ปิด">✕</button>
+        </div>
+        <form id="productForm">
+          <label
+            >ชื่อสินค้า<input name="name" required maxlength="100"
+          /></label>
+          <div class="fields">
+            <label
+              >หมวด<select name="category">
+                <option>Bags</option>
+                <option>Tech</option>
+                <option>Essentials</option>
+              </select></label
+            ><label
+              >ราคา (บาท)<input
+                name="price"
+                type="number"
+                min="0.01"
+                max="1000000"
+                step="0.01"
+                required
+            /></label>
+          </div>
+          <label
+            >รายละเอียด<textarea
+              name="description"
+              required
+              maxlength="1000"
+            ></textarea>
+          </label>
+          <div class="fields">
+            <label
+              >สต๊อก<input
+                name="stock"
+                type="number"
+                min="0"
+                max="100000"
+                required /></label
+            ><label
+              >สถานะ<select name="active">
+                <option value="1">พร้อมขาย</option>
+                <option value="0">ซ่อนสินค้า</option>
+              </select></label
+            >
+          </div>
+          <button class="primary" type="submit">บันทึกสินค้า</button>
+          <div id="formError" class="action-result"></div>
+        </form>
+      </dialog>
+    </main>
+    <footer class="site-footer" id="footer"></footer>
+    <script type="module" src="./page.js"></script>
+  </body>
+</html>

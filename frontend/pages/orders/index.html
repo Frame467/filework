@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fieldwork / Order Management</title>
+    <link rel="stylesheet" href="/shared/styles/base.css" />
+    <link rel="stylesheet" href="/shared/styles/theme.css" />
+    <link rel="stylesheet" href="./page.css" />
+  </head>
+  <body>
+    <div id="shell"></div>
+    <main>
+      <span class="eyebrow">OPERATIONS / FULFILLMENT</span>
+      <h1 class="back-title">จัดการคำสั่งซื้อ</h1>
+      <p>
+        รับออเดอร์ → จัดของ → จัดส่ง ·
+        การยกเลิกหรือรับคืนจะเพิ่มสต๊อกกลับครั้งเดียว
+      </p>
+      <label class="filter"
+        >กรองสถานะ<select id="filter">
+          <option value="all">ทั้งหมด</option>
+          <option value="placed">รับออเดอร์</option>
+          <option value="packing">กำลังจัดของ</option>
+          <option value="shipped">จัดส่งแล้ว</option>
+          <option value="returned">คืนสินค้าแล้ว</option>
+          <option value="cancelled">ยกเลิกแล้ว</option>
+        </select></label
+      >
+      <div class="order-list" id="orders"></div>
+    </main>
+    <footer class="site-footer" id="footer"></footer>
+    <script type="module" src="./page.js"></script>
+  </body>
+</html>

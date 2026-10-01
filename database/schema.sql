@@ -1,0 +1,3 @@
+-- Schema files are separated by domain under database/schema/.
+-- Loaded in filename order by backend/core/database.mjs.
+-- Edit the matching domain file, not this index comment.

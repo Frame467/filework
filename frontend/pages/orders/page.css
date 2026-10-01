@@ -1,0 +1,25 @@
+.filter {
+  max-width: 250px;
+}
+.order-list {
+  display: grid;
+  gap: 18px;
+}
+.order-items {
+  border-block: 1px solid var(--line);
+  padding: 16px 0;
+}
+
+.order-list > .panel {
+  padding: 26px;
+}
+.order-items {
+  margin: 18px 0;
+  padding: 18px 0;
+}
+.order-list .row {
+  row-gap: 12px;
+}
+.filter {
+  margin-bottom: 26px;
+}

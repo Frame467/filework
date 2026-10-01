@@ -1,0 +1,10 @@
+import { seed } from "../database/seed.mjs";
+import "./features/session/session.routes.mjs";
+import "./features/products/products.routes.mjs";
+import "./features/orders/orders.routes.mjs";
+import "./features/checkout/checkout.routes.mjs";
+import "./features/employees/employees.routes.mjs";
+import "./features/dashboard/dashboard.routes.mjs";
+import { startServer } from "./core/http-server.mjs";
+seed();
+startServer(3000);

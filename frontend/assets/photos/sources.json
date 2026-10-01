@@ -1,0 +1,50 @@
+[
+  {
+    "file": "bag.jpg",
+    "source": "https://unsplash.com/photos/3o-X8WJOP5E",
+    "image_url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fm=jpg&fit=crop&w=1200&q=82",
+    "photographer": "Wiser by the Mile",
+    "subject": "Backpack product photo",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "file": "bottle.jpg",
+    "source": "https://unsplash.com/photos/JtwDKB4snWs",
+    "image_url": "https://images.unsplash.com/photo-1622398285334-cad8e4052638?auto=format&fm=jpg&fit=crop&w=1200&q=82",
+    "photographer": "Nubelson Fernandes",
+    "subject": "Reusable bottle by the sea",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "file": "headphones.jpg",
+    "source": "https://unsplash.com/photos/PDX_a_82obo",
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fm=jpg&fit=crop&w=1200&q=82",
+    "photographer": "C D-X",
+    "subject": "Headphones on yellow",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "file": "lamp.jpg",
+    "source": "https://unsplash.com/photos/f_2LspFLEZA",
+    "image_url": "https://images.unsplash.com/photo-1571800618799-1b569be70930?auto=format&fm=jpg&fit=crop&w=1200&q=82",
+    "photographer": "Muhammad Syahroyni",
+    "subject": "Glowing camping lantern",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "file": "watch.jpg",
+    "source": "https://unsplash.com/photos/sxoNM96axSY",
+    "image_url": "https://images.unsplash.com/photo-1616928231359-fc8b7e244c3b?auto=format&fm=jpg&fit=crop&w=1200&q=82",
+    "photographer": "Unsplash contributor",
+    "subject": "Analog wristwatch",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "file": "duffel.jpg",
+    "source": "https://unsplash.com/s/photos/duffel-bag",
+    "image_url": "https://images.unsplash.com/photo-1525103504173-8dc1582c7430?auto=format&fm=jpg&fit=crop&w=1200&q=82",
+    "photographer": "Unsplash contributor",
+    "subject": "Leather duffel on a road",
+    "license": "https://unsplash.com/license"
+  }
+]

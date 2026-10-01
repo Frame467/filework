@@ -1,0 +1,12 @@
+/* Page-specific styles. Shared tokens are in shared/styles/theme.css. */
+
+.split .panel {
+  min-height: 260px;
+}
+#recent .row,
+#lowStock .row {
+  padding: 14px 0;
+}
+.metric {
+  position: relative;
+}

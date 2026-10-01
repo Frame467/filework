@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fieldwork / Team Management</title>
+    <link rel="stylesheet" href="/shared/styles/base.css" />
+    <link rel="stylesheet" href="/shared/styles/theme.css" />
+    <link rel="stylesheet" href="./page.css" />
+  </head>
+  <body>
+    <div id="shell"></div>
+    <main>
+      <span class="eyebrow">OPERATIONS / PEOPLE</span>
+      <h1 class="back-title">ทีมและสิทธิ์การใช้งาน</h1>
+      <p>Staff จัดการออเดอร์และอ่านสต๊อกได้ · Admin แก้สินค้าและจัดการทีมได้</p>
+      <div class="split">
+        <section class="panel">
+          <h2>สมาชิกทีม</h2>
+          <div id="employees"></div>
+        </section>
+        <section class="panel">
+          <h2>เพิ่มพนักงานเดโม</h2>
+          <form id="employeeForm">
+            <label
+              >ชื่อพนักงาน<input
+                name="name"
+                required
+                maxlength="100"
+                placeholder="เช่น กานต์ · ฝ่ายจัดส่ง" /></label
+            ><button class="primary" type="submit">เพิ่มพนักงาน</button>
+            <div id="formError" class="action-result"></div>
+          </form>
+          <p class="small spaced">
+            บัญชีนี้จะปรากฏในเมนูสลับบัญชีเดโม
+            ระบบนี้ยังไม่ใช่การสมัครบัญชีด้วยรหัสผ่าน
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer" id="footer"></footer>
+    <script type="module" src="./page.js"></script>
+  </body>
+</html>

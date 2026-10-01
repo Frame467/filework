@@ -1,0 +1,26 @@
+.summary-item {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+.total {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#submit {
+  width: 100%;
+}
+
+.summary-item {
+  padding: 18px 0;
+}
+.total {
+  font-weight: 650;
+}
+.split > .panel {
+  align-self: start;
+}
+#submit {
+  margin-top: 18px;
+}

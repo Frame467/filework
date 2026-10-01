@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fieldwork / Everyday adventures</title>
+    <link rel="stylesheet" href="/shared/styles/base.css" />
+    <link rel="stylesheet" href="/shared/styles/theme.css" />
+    <link rel="stylesheet" href="./page.css" />
+  </head>
+  <body>
+    <div id="shell"></div>
+    <main>
+      <section class="hero">
+        <div>
+          <span class="eyebrow">ของใช้สำหรับวันเดินทาง</span>
+          <h1>เตรียมของให้พร้อม<br />แล้วออกเดินทาง</h1>
+          <p>
+            ของใช้ที่พร้อมไปกับคุณ ตั้งแต่วันธรรมดา<br />ไปจนถึงการเดินทางครั้งต่อไป
+          </p>
+          <a class="button primary" href="#collection">เลือกดูสินค้า ↓</a>
+          <div class="hero-note">
+            <span>กระเป๋า · อุปกรณ์ · ของใช้</span
+            ><span>เลือกซื้อและติดตามออเดอร์ได้ที่นี่</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img
+            src="/assets/photos/duffel.jpg"
+            alt="ภาพถ่ายกระเป๋าเดินทางบนถนน"
+          />
+        </div>
+      </section>
+      <section id="collection">
+        <div class="row between section-title">
+          <div>
+            <span class="eyebrow">เลือกของที่ต้องใช้</span>
+            <h2>สินค้าทั้งหมด</h2>
+          </div>
+          <label class="search-label"
+            ><span class="sr-only">ค้นหาสินค้า</span
+            ><input id="search" type="search" placeholder="ค้นหาสินค้า…"
+          /></label>
+        </div>
+        <div class="row filters" id="filters">
+          <button data-category="All" class="primary">ทั้งหมด</button
+          ><button data-category="Bags">กระเป๋า</button
+          ><button data-category="Tech">อุปกรณ์</button
+          ><button data-category="Essentials">ของใช้</button>
+        </div>
+        <div id="products" class="grid">
+          <p class="loading">กำลังโหลดสินค้า…</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" id="footer"></footer>
+    <script type="module" src="./page.js"></script>
+  </body>
+</html>
